@@ -1,0 +1,345 @@
+/*@import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+
+body{
+	margin: 0 auto;
+}
+
+h1
+{
+    color:#3d3d3d;
+    text-align:center;
+    font-family: Arial, Helvetica, 'Helvetica Neue', Verdana, sans-serif;
+    font-size:26px;
+}
+
+h2
+{
+    color:#3d3d3d;
+    text-align:center;
+    font-family: Arial, Helvetica, 'Helvetica Neue', Verdana, sans-serif;
+    font-size:26px;
+}
+
+h3
+{
+    color:#3d3d3d;
+    text-align:center;
+    font-family: Arial, Helvetica, 'Helvetica Neue', Verdana, sans-serif;
+    font-size:15px;
+}
+
+h4
+{
+    color: #26ff00;
+    text-align:center;
+    font-family: Arial, Helvetica, 'Helvetica Neue', Verdana, sans-serif;
+    font-size:12px;
+}
+h5
+{
+    color: #ff1405;
+    text-align:center;
+    font-family: Arial, Helvetica, 'Helvetica Neue', Verdana, sans-serif;
+    font-size:12px;
+}
+
+p
+{
+    font-family: Arial, Helvetica, 'Helvetica Neue', Verdana, sans-serif;
+    font-size:20px;
+    color: #2f2f2f;
+    text-align:center;
+}
+
+#inlogform input
+{
+    border:1px solid grey;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size:12px;
+    color: #fff;
+    background: #4169E1;
+    height:16px;
+    width:150px;
+    margin:5px 0 20px 10px;
+    border-radius:5px;
+}
+
+#midden{
+	text-align: center;
+	background: #394264;
+	border-radius: 25px;
+	margin-left: 750px;
+	margin-right: 750px;
+	margin-top: 150px;
+	height: 520px;
+}
+
+#nav{
+	display: block;
+}
+
+#nav ul{
+	text-align: center;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav ul li{
+	color: #fff;
+	list-style-type: none;
+	display: inline;
+}
+
+#nav ul li a{
+
+}*/
+#foutmelding
+{
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    padding-top: 50px;
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+body
+{
+    /*background-color: rgba(186, 218, 85, 0.50);
+    background-image: url("../images/4.jpg");*/
+        background: none repeat scroll 0% 0% #2a2a2a;
+}
+
+h1
+{
+    color: white;
+    text-align:center;
+    font-family: Arial, Helvetica, 'Helvetica Neue', Verdana, sans-serif;
+    font-size:26px;
+}
+
+h2
+{
+    color: white;
+    text-align:center;
+    font-family: Arial, Helvetica, 'Helvetica Neue', Verdana, sans-serif;
+    font-size:26px;
+}
+
+h3
+{
+    color: white;
+    text-align:center;
+    font-family: Arial, Helvetica, 'Helvetica Neue', Verdana, sans-serif;
+    font-size:15px;
+}
+
+h4
+{
+    color: white;
+    text-align:center;
+    font-family: Arial, Helvetica, 'Helvetica Neue', Verdana, sans-serif;
+    font-size:12px;
+}
+h5
+{
+    color: white;
+    text-align:center;
+    font-family: Arial, Helvetica, 'Helvetica Neue', Verdana, sans-serif;
+    font-size:12px;
+}
+
+h6
+{
+    text-align:center;
+    font-family: Arial, Helvetica, 'Helvetica Neue', Verdana, sans-serif;
+    font-size:12px;
+}
+
+p
+{
+    font-family: Arial, Helvetica, 'Helvetica Neue', Verdana, sans-serif;
+    font-size:20px;
+    color: white;
+    text-align:center;
+}
+
+#main {
+    width: 755px;
+    height: auto;
+    margin: auto;
+    margin-top: 300px;
+    text-align: left;
+    color:white;
+}
+
+
+#inlogform
+{
+    width:500px;
+    margin:0 auto;
+	color:white;
+}
+
+
+#inlogform p
+{
+    font-family: Arial, Helvetica, 'Helvetica Neue', Verdana, sans-serif;
+    font-size:10px;
+    color: white;
+    text-align:right;
+}
+
+
+#inlogform input
+{
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size:12px;
+    color: #2f2f2f;
+    background: white;
+    height:20px;
+    width:200px;
+}
+
+#inlogform select
+{
+    border:1px solid grey;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size:12px;
+    color: #2f2f2f;
+    background: white;
+    height:16px;
+    width:150px;
+    margin:5px 0 20px 10px;
+    border-radius:5px;
+}
+
+#inlogform textarea
+{
+    border:1px solid grey;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size:12px;
+    color: #2f2f2f;
+    background: white;
+    height:75px;
+    width:150px;
+    margin:5px 0 20px 10px;
+    border-radius:5px;
+}
+
+#inlogform button
+{
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size:12px;
+    color: #2f2f2f;
+    background: white;
+    height:20px;
+    width:200px;
+}
+
+.buttonHolder
+{
+    text-align: center;
+}
+
+#inlogform span{
+    font-family: Arial, Helvetica, 'Helvetica Neue', Verdana, sans-serif;
+    font-size:20px;
+    color: #2f2f2f;
+    text-align:center;
+}
+
+#sideforms
+{
+    width:150px;
+	height: 250px;
+    border:solid 2px #3d3d3d;
+    padding:14px;
+    margin:0 auto;
+    text-align:center;
+    background: #BA0000;
+	color:white;
+}
+
+
+#sideforms p
+{
+    font-family: Arial, Helvetica, 'Helvetica Neue', Verdana, sans-serif;
+    font-size:10px;
+    color: white;
+    text-align:center;
+}
+
+
+#sideforms input
+{
+    border:1px solid grey;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size:12px;
+    color: #2f2f2f;
+    background: white;
+    height:16px;
+    width:150px;
+    margin:5px 0 20px 10px;
+    border-radius:5px;
+}
+
+#sideforms select
+{
+    border:1px solid grey;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size:12px;
+    color: #2f2f2f;
+    background: white;
+    height:16px;
+    width:150px;
+    margin:5px 0 20px 10px;
+    border-radius:5px;
+}
+
+#sideforms textarea
+{
+    border:1px solid grey;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size:12px;
+    color: #2f2f2f;
+    background: white;
+    height:75px;
+    width:150px;
+    margin:5px 0 20px 10px;
+    border-radius:5px;
+}
+
+#sideforms button
+{
+    border:1px solid grey;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size:12px;
+    color: white;
+    background: white;
+    height:16px;
+    width:auto;
+    border-radius:5px;
+    background-color: rgba(186, 218, 85, 0.50);
+}
+
+#sideforms span{
+    font-family: Arial, Helvetica, 'Helvetica Neue', Verdana, sans-serif;
+    font-size:20px;
+    color: #2f2f2f;
+    text-align:center;
+}
+#memberlist td, th {
+    border: 1px solid black;
+}
+
+#memberlist {
+    width: 100%;
+}
+
+#memberlist th {
+    text-align: left;
+}
